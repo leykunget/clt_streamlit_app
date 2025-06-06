@@ -18,25 +18,6 @@ An interactive web application that visually demonstrates the Central Limit Theo
   - Population mean (μ)
   - Theoretical standard error (σ/√n)
 
-## How to Run
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/clt-demo.git
-   cd clt-demo
-   ```
-
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Run the Streamlit app:
-   ```bash
-   streamlit run clt_demo.py
-   ```
-
-4. The app will automatically open in your default web browser
 
 ## Requirements
 - Python 3.7+
@@ -51,4 +32,4 @@ The Central Limit Theorem states that when independent random variables are aver
 - Decreasing standard error with larger sample sizes
 - Independence of CLT from population distribution shape
 
-![Demo Screenshot](app-screenshot.png)
+![Demo Screenshot](image/app-screenshot.png)
