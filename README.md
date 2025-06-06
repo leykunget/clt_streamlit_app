@@ -1,7 +1,5 @@
 # Central Limit Theorem (CLT) Interactive Demo
 
-![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)
-
 An interactive web application that visually demonstrates the Central Limit Theorem using Streamlit. Users can explore how sample means from different population distributions converge to a normal distribution as sample size increases.
 
 ## Key Features
@@ -27,9 +25,9 @@ An interactive web application that visually demonstrates the Central Limit Theo
 - scipy
 
 ## Understanding CLT
-The Central Limit Theorem states that when independent random variables are averaged, their properly normalized sum tends toward a normal distribution, regardless of the original population's distribution. This demo helps visualize:
-- Convergence to normality as sample size increases
-- Decreasing standard error with larger sample sizes
-- Independence of CLT from population distribution shape
 
+The Central Limit Theorem (CLT) states that the average of independent random variables approaches a normal distribution as the sample size increases, regardless of the original population's distribution. This demo illustrates:
+- Convergence to normality with larger sample sizes
+- Decreasing standard error as sample sizes grow
+- CLT's independence from the shape of the population distribution
 ![Demo Screenshot](image/app-screenshot.png)
