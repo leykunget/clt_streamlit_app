@@ -1,25 +1,54 @@
-# 📦 Streamlit App Starter Kit 
-```
-⬆️ (Replace above with your app's name)
-```
+# Central Limit Theorem (CLT) Interactive Demo
 
-Description of the app ...
+![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)
 
-## Demo App
+An interactive web application that visually demonstrates the Central Limit Theorem using Streamlit. Users can explore how sample means from different population distributions converge to a normal distribution as sample size increases.
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-starter-kit.streamlit.app/)
+## Key Features
 
-## GitHub Codespaces
+- **Interactive controls** for:
+  - Population distribution selection (Uniform, Normal, Exponential)
+  - Adjustable sample size (1-500)
+  - Adjustable number of samples (1-10000)
+- **Visualizations**:
+  - Population distribution histogram
+  - Sampling distribution of sample means
+  - Theoretical normal curve predicted by CLT
+- **Real-time parameter display**:
+  - Population mean (μ)
+  - Theoretical standard error (σ/√n)
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/app-starter-kit?quickstart=1)
+## How to Run
 
-## Section Heading
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/clt-demo.git
+   cd clt-demo
+   ```
 
-This is filler text, please replace this with text for this section.
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## Further Reading
+3. Run the Streamlit app:
+   ```bash
+   streamlit run clt_demo.py
+   ```
 
-This is filler text, please replace this with a explanatory text about further relevant resources for this repo
-- Resource 1
-- Resource 2
-- Resource 3
+4. The app will automatically open in your default web browser
+
+## Requirements
+- Python 3.7+
+- streamlit
+- numpy
+- matplotlib
+- scipy
+
+## Understanding CLT
+The Central Limit Theorem states that when independent random variables are averaged, their properly normalized sum tends toward a normal distribution, regardless of the original population's distribution. This demo helps visualize:
+- Convergence to normality as sample size increases
+- Decreasing standard error with larger sample sizes
+- Independence of CLT from population distribution shape
+
+![Demo Screenshot](app-screenshot.png)
