@@ -30,5 +30,6 @@ The Central Limit Theorem (CLT) states that the average of independent random va
 - Convergence to normality with larger sample sizes
 - Decreasing standard error as sample sizes grow
 - CLT's independence from the shape of the population distribution
+
 🔗 [Check out the application here!](https://clt-demo-app.streamlit.app/)
 ![Demo Screenshot](image/app-screenshot.png)
